@@ -4,11 +4,20 @@ Naïve Bayes Text Classification Project
 
 I'm excited to share my latest Natural Language Processing (NLP) project, where I built a Text Classification model using different Naïve Bayes algorithms.
 
+I evaluated three different models: **Multinomial Naïve Bayes, Bernoulli Naïve Bayes, and Complement Naïve Bayes**. After comparing their **Accuracy** and **Weighted F1-Score**, **Multinomial Naïve Bayes** delivered the best overall performance on the dataset, making it the final model for the project.
+
+One of the most interesting insights was observing how certain words became highly indicative of specific classes. The TF-IDF representation helped the model identify these important terms while reducing the influence of very common words, leading to better classification performance.
+
+A surprising lesson from this project was how a relatively simple algorithm like Naïve Bayes can achieve excellent results on text data despite assuming feature independence. This reinforced the importance of choosing the right algorithm for the problem rather than always relying on more complex models.
+
+This project strengthened my understanding of text preprocessing, feature extraction, model evaluation, and practical Natural Language Processing (NLP) workflows using Python and Scikit-learn.
+
 The objective was to automatically classify text documents into their appropriate categories after performing text preprocessing and TF-IDF vectorization. I compared the performance of Multinomial Naïve Bayes, Bernoulli Naïve Bayes, and Complement Naïve Bayes to identify the most effective model.
 
 📊 Best Model: Bernoulli Naïve Bayes
 ✅ Accuracy: 66.67%
 ✅ F1-Score: 0.7167
+
 
 One interesting insight from the project was that certain words were highly associated with specific categories, allowing the model to distinguish between classes effectively. Feature extraction using TF-IDF significantly improved the quality of text representation before classification.
 
