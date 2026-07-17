@@ -1,1 +1,110 @@
-
+�
+� Machine Learning Project: Loan Amount & Loan
+Status Prediction
+I successfully completed an end-to-end Machine Learning project that demonstrates how a single dataset
+can be used to solve two different prediction problems. The objective was to predict the Loan Amount
+(Regression) and determine the Loan Status (Classification). This project provided valuable experience in
+applying multiple machine learning techniques, comparing model performance, and selecting the most
+suitable algorithm for each task.
+Project Workflow
+Step 1: Data Exploration
+• 
+• 
+• 
+• 
+Loaded the loan dataset using Pandas.
+Performed Exploratory Data Analysis (EDA) to understand feature distributions.
+Examined summary statistics and identified missing values.
+Visualized numerical and categorical features using histograms, boxplots, and count plots.
+Step 2: Data Preprocessing
+• 
+• 
+• 
+• 
+Treated missing values using appropriate imputation techniques.
+Encoded categorical variables into numerical representations.
+Checked for duplicate records and inconsistent values.
+Prepared the dataset for machine learning by separating features and target variables.
+Step 3: Train-Test Split
+• 
+• 
+Split the dataset into 80% training and 20% testing data.
+Used a fixed random state to ensure reproducible results.
+Step 4: Regression Model
+The first objective was to predict the Loan Amount, which is a continuous numerical value.
+Model Used
+• 
+Linear Regression
+Performance
+• 
+• 
+• 
+• 
+MAE: 16.6568
+RMSE: 30.061
+R² Score: 0.7938
+Adjusted R²: 0.7799
+1
+The model explained approximately 79% of the variance in loan amounts, indicating strong predictive
+performance for a baseline regression model.
+Step 5: Classification Models
+The second objective was to predict whether a loan application would be Approved or Rejected.
+Models Compared
+• 
+• 
+Logistic Regression
+Support Vector Classifier (SVC)
+Model Comparison
+Logistic Regression
+• 
+• 
+• 
+• 
+• 
+Accuracy: 79.83%
+Precision: 81.89%
+Recall: 79.83%
+F1-Score: 77.60%
+AUC: 0.7519
+Support Vector Classifier
+• 
+• 
+• 
+• 
+• 
+Accuracy: 78.99%
+Precision: 81.19%
+Recall: 78.99%
+F1-Score: 76.49%
+AUC: 0.7199
+Among the classification models, Logistic Regression delivered the best overall performance by achieving
+higher Accuracy, F1-Score, and AUC than SVC.
+Key Findings
+• 
+• 
+• 
+Applicant income, loan history, and financial attributes played a significant role in predicting both
+loan amount and loan approval.
+Proper preprocessing and feature encoding substantially improved model performance.
+Linear Regression proved effective for continuous value prediction, while Logistic Regression was the
+most suitable classifier for this dataset.
+Challenges Faced
+• 
+• 
+• 
+• 
+Handling missing values without introducing bias.
+Converting categorical variables into machine-readable formats.
+Selecting appropriate evaluation metrics for regression and classification problems.
+Comparing models fairly using multiple performance measures.
+2
+What I Learned
+This project strengthened my understanding of the complete machine learning lifecycle, including data
+cleaning, feature engineering, model training, evaluation, and interpretation. One of the biggest takeaways
+was that the quality of data preprocessing often has a greater impact on model performance than
+choosing a more complex algorithm. I also learned the importance of selecting evaluation metrics based
+on the problem type—R² and RMSE for regression, and Accuracy, Precision, Recall, F1-Score, and AUC for
+classification.
+Overall, this project enhanced my practical skills in applying machine learning to real-world financial data
+and reinforced the importance of building interpretable, well-evaluated predictive models.
+3
