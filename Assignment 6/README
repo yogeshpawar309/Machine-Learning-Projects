@@ -1,1 +1,14 @@
+🌳 **Decision Tree Classification – Turning Data into Smart Decisions!**
+
+One of the most intuitive machine learning algorithms I explored is the **Decision Tree Classifier**. It works by splitting data into smaller groups based on feature values, creating a tree-like structure that is easy to understand and interpret. Each decision node represents a condition, while the leaf nodes represent the final prediction.
+
+During this project, I learned how Decision Trees use metrics such as **Gini Impurity** and **Entropy (Information Gain)** to determine the best feature for each split. I also explored techniques like **pre-pruning** and **post-pruning** to reduce overfitting and improve model generalization.
+
+A major advantage of Decision Trees is their ability to handle both numerical and categorical data with minimal preprocessing. They also provide clear insights into feature importance, making them highly interpretable for business and real-world applications.
+
+This project strengthened my understanding of supervised learning, model evaluation, and decision-making algorithms. It also highlighted the importance of balancing model complexity with predictive performance.
+
+Every project is another step toward becoming a better Data Scientist. Looking forward to exploring ensemble techniques like Random Forest and Gradient Boosting next!
+
+#MachineLearning #DecisionTree #DataScience #Python #ScikitLearn #ArtificialIntelligence #DataAnalytics #LearningJourney #AI #MLProjects
 
