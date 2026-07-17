@@ -1,0 +1,16 @@
+Gender,NumPrevTransactions,PaymentMethod,IsFraud
+Male,5,CreditCard,0
+Female,1,BankTransfer,1
+Female,12,Cash,0
+Male,0,CreditCard,1
+Female,40,Cash,1
+Male,2,BankTransfer,0
+Female,10,Cash,0
+Male,1,CreditCard,1
+Female,35,BankTransfer,1
+Female,6,Cash,0
+Male,0,CreditCard,0
+Female,50,Cash,1
+Male,30,BankTransfer,1
+Female,9,CreditCard,0
+Male,13,Cash,0
